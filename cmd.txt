@@ -1,0 +1,11 @@
+python -m venv venv
+
+# Windows activation
+venv\Scripts\activate
+
+# Upgrade pip
+python -m pip install --upgrade pip
+
+# Install packages
+pip install -U jupyter jupyterlab ipywidgets pandas numpy matplotlib plotly statsmodels scikit-learn statsforecast kaleido
+
